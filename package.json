@@ -4,7 +4,7 @@
   "description": "100Devs Social Network",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon -e 'js, jsx, json' server.js -L",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,7 +14,6 @@
     "cloudinary": "^1.25.1",
     "connect-mongo": "^3.2.0",
     "dotenv": "^8.2.0",
-    "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-flash": "^0.0.2",
     "express-react-views": "^0.11.0",
